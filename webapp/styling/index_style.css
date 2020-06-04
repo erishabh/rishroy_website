@@ -2,7 +2,7 @@
   border-radius: 50%;
 }
 
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 776px) {
   .left {
     margin-top: 120px;
     max-width: 35%;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
   .left {
     margin-top: 120px;
     flex: 1;
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 776px) {
   .right {
     margin-top: 130px;
     margin-left: 50px;
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
   .right {
     margin-top: 130px;
     margin-left: 50px;
@@ -66,7 +66,7 @@
 }
 
 .contact_button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 30px 0 rgba(0,0,0,0.19);
   background-color: #3391DC;
   color: white;
   text-decoration: none;
