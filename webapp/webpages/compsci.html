@@ -25,7 +25,10 @@
     <!-- written styling sheets -->
     <link rel="stylesheet" type="text/css" href="../styling/social_button.css">
     <link rel="stylesheet" type="text/css" href="../styling/fonts.css">
-
+    <link rel="stylesheet" type="text/css" href="../styling/acad_style.css">
+    <link rel="stylesheet" type="text/css" href="../styling/toggle_buttons.css">
+    <!-- written function scripts -->
+    <script src="../javascript/show_tab.js" language="Javascript" type="text/javascript"></script>
 </head>
 
 <body>
@@ -55,6 +58,102 @@
         <a href="#" target="_blank" class="fa fa-file-alt ml-auto mr-1" data-toggle="tooltip" data-placement="bottom" title="Resume"></a>
       </div>
     </nav>
+
+    <div class="tab">
+      <button id="pw" class="tablinks tab_one" onclick="openTab(event,'personalWebsite')">Personal Website</button>
+      <button id="sm" class="tablinks tab_two" onclick="openTab(event,'swimMeetSeeding')">Swim Seeder</button>
+      <button id="cf" class="tablinks tab_three" onclick="openTab(event,'climateForcast')">Climate Forecaster</button>
+    </div>
+
+    <div id="personalWebsite" class="tabcontent">
+      <h4>Personal Website | Summer 2020</h4>
+      <div class="row">
+        <h5><span class="skills">Agile Methadology (Kanban)</span></h5>
+        <h5><span class="skills">HTML</span></h5>
+        <h5><span class="skills">CSS</span></h5>
+        <h5><span class="skills">JavaScript</span></h5>
+        <h5><span class="skills">UI</span></h5>
+      </div>
+      <br/>
+      <h5>Summary:</h5>
+      <br/>
+      <p> Designed this website to be a representation of myself and display my projects and accomplishments. I utilized Kanban,
+        an Agile methodology, for the duration of the project, wireframes designed on Figma to visualize the UI of the pages, and
+        created the frontend using a combination of HTML, CSS, and JavaScript.
+        <br/>
+        <br/>
+      </p>
+      <a href="#" target="_blank" class="github_button" role="button"><i class="fab fa-github"></i>GitHub</a>
+      </a>
+      <br/>
+      <br/>
+    </div>
+
+    <div id="swimMeetSeeding" class="tabcontent">
+      <h4>Swim Seeder - Swim Meet Seeding Application | Summer 2019</h4>
+      <div class="row">
+        <h5><span class="skills">Agile Methadology (Kanban)</span></h5>
+        <h5><span class="skills">Python</span></h5>
+        <h5><span class="skills">pandas</span></h5>
+        <h5><span class="skills">tkinter</span></h5>
+        <h5><span class="skills">GUI</span></h5>
+      </div>
+      <br/>
+      <h5>Summary:</h5>
+      <br/>
+      <p> Developed a desktop application for seeding swim meet entries. I designed it to make seeding swim meets easier for
+        College Club Swim Teams who do not have the financial viability to purchase high end software. The application seeds
+        swim meets according to the event order followed by College Club Swimming and user preferences such as number of lanes,
+        circle seeding and seeding order. I utilized Kanban, an Agile methodology, for the duration of the project, Python pandas
+        for the data manipulation, and Python tkinter for the GUI.
+        <br/>
+        <br/>
+      </p>
+      <a class="report_button" data-toggle="collapse" href="#swimMeetSeedingReport" role="button" aria-expanded="false" aria-controls="swimMeetSeedingReport">
+        Report<i class="fas fa-caret-down"></i>
+      </a>
+      <br/>
+      <br/>
+      <div class="collapse" id="swimMeetSeedingReport">
+        <iframe src="../reports/swim_meet_seeding_app.pdf#zoom=70" width="100%" height="575px"></iframe>
+        <br/>
+        <br/>
+      </div>
+    </div>
+
+    <div id="climateForcast" class="tabcontent">
+      <h4>Climate Forecaster - Climate Mitigation Application | Spring 2018</h4>
+      <div class="row">
+        <h5><span class="skills">MATLAB</span></h5>
+        <h5><span class="skills">GUI</span></h5>
+      </div>
+      <br/>
+      <h5>Summary:</h5>
+      <br/>
+      <p> Designed and built an app to help scientists with climate policy by graphing and observing how different mitigation
+        strategies affect the overall Carbon Emissions, Carbon Concentrations and Mean Global Warming on this planet. The app uses
+        wedges developed from research conducted by Princeton University as the strategies to be implemented. I was responsible for
+        designing and implementing the overall UI of the app using MATLAB and worked on the graphing with interpolation.
+        <br/>
+        <br/>
+        Project Partners: Nikhar Arora, Sarina Xi
+      </p>
+      <br/>
+      <a class="report_button" data-toggle="collapse" href="#climateForcastReport" role="button" aria-expanded="false" aria-controls="climateForcastReport">
+        Report<i class="fas fa-caret-down"></i>
+      </a>
+      <br/>
+      <br/>
+      <div class="collapse" id="climateForcastReport">
+        <iframe src="../reports/climate_mitigation_app.pdf#zoom=70" width="100%" height="575px"></iframe>
+        <br/>
+        <br/>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("pw").click();
+    </script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="/__/firebase/7.14.6/firebase-app.js"></script>
