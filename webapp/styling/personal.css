@@ -1,0 +1,60 @@
+.page {
+  margin-top: 80px;
+}
+
+.heading{
+  font-weight: bold;
+  text-align:center;
+}
+
+hr.devider {
+  width: 85%;
+}
+
+.pics{
+  position: absolute;
+  left: 3%;
+  right: 3%;
+}
+
+.row{
+  margin-left: 0%;
+  margin-right: 0%
+}
+
+.col_one {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+
+.col_two {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  max-width: 80
+}
+
+.left_one{
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.left_two{
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.right_one{
+  max-width: 200px;
+  border-radius: 10px;
+  justify-content: flex-end;
+}
+
+.right_two{
+  max-width: 200px;
+  border-radius: 10px;
+  justify-content: flex-end;
+}
