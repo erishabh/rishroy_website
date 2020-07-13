@@ -1,0 +1,77 @@
+.profile_pic {
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 776px) {
+  .left {
+    margin-top: 120px;
+    max-width: 35%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .left {
+    margin-top: 120px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .right {
+    margin-top: 120px;
+    margin-left: 50px;
+    max-width: 58%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .right {
+    margin-top: 120px;
+    margin-left: 50px;
+    max-width: 58%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contact_button {
+  background-color: white;
+  border: 2px solid #3391DC;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.contact_button:hover {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.20),0 10px 20px 0 rgba(0,0,0,0.15);
+  background-color: #3391DC;
+  color: white;
+  text-decoration: none;
+}
+
+.fas{
+  padding-right: 10px;
+}
