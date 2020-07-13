@@ -4,7 +4,7 @@
 
 .heading{
   font-weight: bold;
-  text-align:center;
+  text-align: center;
 }
 
 hr.devider {
@@ -13,48 +13,85 @@ hr.devider {
 
 .pics{
   position: absolute;
-  left: 3%;
-  right: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .row{
   margin-left: 0%;
-  margin-right: 0%
+  margin-right: 0%;
+  align-items: center;
 }
 
-.col_one {
+.col_one_left {
   flex: 1;
   display: flex;
   flex-direction: column;
-  max-width: 40%;
+  max-width: 20%;
+  padding-right: 30px;
 }
 
-.col_two {
+.col_two_left {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
-  max-width: 80
+  max-width: 20%;
+  padding-right: 30px;
 }
 
-.left_one{
-  max-width: 200px;
-  border-radius: 10px;
+.col_three_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
 }
 
-.left_two{
-  max-width: 200px;
-  border-radius: 10px;
+.col_three_left_only {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
 }
 
-.right_one{
-  max-width: 200px;
-  border-radius: 10px;
-  justify-content: flex-end;
+.col_one_right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
 }
 
-.right_two{
+.col_one_right_only {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.col_two_right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  padding-left: 30px;
+  align-content: flex-end;
+}
+
+.col_three_right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  padding-left: 30px;
+  align-content: flex-end;
+}
+
+.pictures{
   max-width: 200px;
   border-radius: 10px;
-  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.pictures_last{
+  max-width: 200px;
+  border-radius: 10px;
 }
