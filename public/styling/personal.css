@@ -85,6 +85,30 @@ hr.devider {
   align-content: flex-end;
 }
 
+.col_one_header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  padding-right: 30px;
+}
+
+.col_two_header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+.col_three_header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  padding-left: 30px;
+  align-content: flex-end;
+}
+
 .pictures{
   max-width: 200px;
   border-radius: 10px;
