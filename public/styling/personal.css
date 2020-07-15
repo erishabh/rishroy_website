@@ -1,5 +1,8 @@
 .page {
   margin-top: 80px;
+  position: absolute;
+  left: 3%;
+  right: 3%;
 }
 
 .heading{
@@ -11,15 +14,7 @@ hr.devider {
   width: 85%;
 }
 
-.pics{
-  position: absolute;
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
 .row{
-  margin-left: 0%;
-  margin-right: 0%;
   align-items: center;
 }
 
@@ -110,12 +105,12 @@ hr.devider {
 }
 
 .pictures{
-  max-width: 200px;
+  max-width: 100%;
   border-radius: 10px;
   margin-bottom: 30px;
 }
 
 .pictures_last{
-  max-width: 200px;
+  max-width: 100%;
   border-radius: 10px;
 }
