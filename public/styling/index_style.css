@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 776px) {
   .left {
-    margin-top: 120px;
+    margin-top: 100px;
     max-width: 35%;
     flex: 1;
     display: flex;
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 775px) {
   .left {
-    margin-top: 120px;
+    margin-top: 100px;
     flex: 1;
     display: flex;
     flex-direction: column;

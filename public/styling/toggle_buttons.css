@@ -71,6 +71,7 @@
   display: none;
   border-top: none;
   -webkit-animation: fadeEffect 0.4s;
+  animation: fadeEffect 0.4s;
 }
 
 @-webkit-keyframes fadeEffect {

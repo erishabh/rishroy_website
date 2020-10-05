@@ -60,9 +60,42 @@
     </nav>
 
     <div class="tab">
-      <button id="pw" class="tablinks tab_one" onclick="openTab(event,'personalWebsite')">Personal Website</button>
-      <button id="sm" class="tablinks tab_two" onclick="openTab(event,'swimMeetSeeding')">Swim Seeder</button>
-      <button id="cf" class="tablinks tab_three" onclick="openTab(event,'climateForcast')">Climate Mitigator</button>
+      <button id="rs" class="tablinks tab_one" onclick="openTab(event,'reccs')">Reccs</button>
+      <button id="pw" class="tablinks tab_two" onclick="openTab(event,'personalWebsite')">Personal Website</button>
+      <button id="sm" class="tablinks tab_three" onclick="openTab(event,'swimMeetSeeding')">Swim Seeder</button>
+      <button id="cf" class="tablinks tab_four" onclick="openTab(event,'climateForcast')">Climate Mitigator</button>
+    </div>
+
+    <div id="reccs" class="tabcontent">
+      <h4>Reccs | Co-founder, COO | Summer 2020</h4>
+      <div class="row">
+        <h5><span class="skills">Agile Methodology (Scrum) - Jira</span></h5>
+        <h5><span class="skills">Flutter (Dart)</span></h5>
+        <h5><span class="skills">Python (Pandas)</span></h5>
+        <h5><span class="skills">UI/UX (Figma)</span></h5>
+        <h5><span class="skills">GDPR/Legal Compliance</span></h5>
+      </div>
+      <br/>
+      <h5>Summary:</h5>
+      <br/>
+      <p> Designed and built  a cross-platform app to provide restaurant recommendations “from 
+        friends, not strangers” by applying design thinking principles with my teammates. I managed 
+        the overall project using Jira. I was also responsible for developing the GTM strategy, the 
+        terms for GDPR & Legal compliance, and for user interface testing. Currently Reccs is beta 
+        testing on the iOS platform and we are utilizing the Lean Startup Methodology to innovate and 
+        iterate continuously. Reccs was chosen to participate in AddVenture, a start-up accelerator 
+        program, as part of the Summer 2020 cohort.
+        <br/>
+        <br/>
+        Co-founders: Ryan Teshima, Mason Loyet
+        <br/>
+        <br/>
+      </p>
+      <a class="report_button" href="https://reccs.app/" target="_blank" role="button">
+        <img src="../images/reccs_logo.png" class="pictures" width="100"/>
+      </a>
+      <br/>
+      <br/>
     </div>
 
     <div id="personalWebsite" class="tabcontent">
@@ -151,7 +184,7 @@
     </div>
 
     <script>
-      document.getElementById("pw").click();
+      document.getElementById("rs").click();
     </script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
